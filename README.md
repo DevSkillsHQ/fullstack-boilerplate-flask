@@ -1,7 +1,6 @@
 # Fulstack Boilerplate
 
-- React 11
-- create-react-app
+- HTML
 - Python 3
 - Flask
 - Cypress
