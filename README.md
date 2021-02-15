@@ -5,7 +5,7 @@ Use it for setting up a take-home interview assignment or a portfolio project.
 ## Contents
 
 - [Fullstack service](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask/tree/main/app) - a Flask service with a `/ping` endpoint and index.html. Extend with your code.
-- [API test suites](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask/tree/main/cypress/integration) - a backend and a frontend Cypress test suites. Extend with your tests.
+- [E2E test suites](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask/tree/main/cypress/integration) - a backend and a frontend Cypress test suites. Extend with your tests.
 - [Pipeline](https://github.com/DevSkillsHQ/fullstack-boilerplate-flask/blob/main/.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
 
 ## Tech Stack
