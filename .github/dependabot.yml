@@ -3,7 +3,17 @@ updates:
   - package-ecosystem: "pip"
     directory: "/app"
     schedule:
-      interval: "daily"
-    labels:
-      - "python"
-      - "dependencies"
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    groups:
+      flask:
+        patterns:
+          - "flask"
+          - "werkzeug"
+          - "flask-*"
+        update-types:
+          - "major"
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
